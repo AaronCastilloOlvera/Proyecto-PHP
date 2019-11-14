@@ -24,14 +24,14 @@
 		$pdf ->Cell(100, 10, "COMPROBANTE DE COMPRA", 1 , 1, 'C');
 
 		$pdf ->SetFont('Arial','B',10);
-		$pdf -> setx(50);
-		$pdf ->Cell(100, 10, $_POST ['nombre'] . ", usted compro" 
-				. " n " . " Boletos ", 1 , 1, 'C');
+		//$pdf -> setx(50);
+		//$pdf ->Cell(100, 10, $_POST ['nombre'] . ", usted compro" 
+		//		. " n " . " Boletos ", 1 , 1, 'C');
 
 		$pdf ->SetFont('Arial','B',15);
 		$pdf -> setx(50);
-		$pdf ->Cell(50, 10, "Origen: Torreón" , 1 , 0, 'C');
-		$pdf ->Cell(50, 10, "Destino: " , 1 , 1, 'C');
+		$pdf ->Cell(100, 10, "Origen: Torreón" , 1 , 1, 'C');
+		//$pdf ->Cell(50, 10, "Destino: " , 1 , 1, 'C');
 
 		$pdf -> setx(50);
 		$pdf ->Cell(100, 10, "DATOS: ", 1 , 1, 'C');

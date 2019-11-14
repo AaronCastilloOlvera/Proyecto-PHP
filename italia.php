@@ -170,7 +170,7 @@
                 <div class="buttons" >
 
                     <input 
-                        class="bot blue"
+                        
                         type="button" 
                         value="Confirmar Asientos" 
                         id="confirmar" 
@@ -178,9 +178,9 @@
                        
 
                      
-                    <input  class="btn-submit" type="submit" value="Siguiente" onclick = "location='pago.php'"/> &nbsp;
-                    <input  class="btn-submit" type="reset" id="resetear" value="Borrar" /> &nbsp;
-                    <input  class="btn-submit" type="submit" value="Regresar" onclick = "location='menu.php'"/>
+                    <input  " type="submit" value="Siguiente" onclick = "location='pago.php'"/> &nbsp;
+                    <input   type="reset" id="resetear" value="Borrar" /> &nbsp;
+                    <input   type="submit" value="Regresar" onclick = "location='menu.php'"/>
                     
                  
                 </div>
